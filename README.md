@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-uint32array@deno/mod.js';
+import isUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-uint32array@v0.2.3-deno/mod.js';
 ```
 
 #### isUint32Array( value )
@@ -79,7 +79,7 @@ import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@deno/m
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import isUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-uint32array@deno/mod.js';
+import isUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-uint32array@v0.2.3-deno/mod.js';
 
 var bool = isUint32Array( new Uint32Array( 10 ) );
 // returns true
